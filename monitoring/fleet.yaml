@@ -10,6 +10,8 @@ helm:
         - name: "loki"
           type: "loki"
           url: "http://loki.loki.svc:3100"
+    rke2IngressNginx:
+      enabled: true
     prometheusOperator:
       prometheusSpec:
         resources:
